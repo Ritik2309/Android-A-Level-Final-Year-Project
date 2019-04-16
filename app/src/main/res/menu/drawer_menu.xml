@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_notes"
+            android:icon="@drawable/ic_notes"
+            android:title="Notes" />
+        <item
+            android:id="@+id/nav_quiz"
+            android:icon="@drawable/ic_quiz"
+            android:title="Quiz" />
+        <item
+            android:id="@+id/nav_photos"
+            android:icon="@drawable/ic_photos"
+            android:title="Picture" />
+        <item
+            android:id="@+id/nav_createquiz"
+            android:icon="@drawable/ic_quiz"
+            android:title="CreateQuiz" />
+
+        <item
+            android:id="@+id/nav_calender"
+            android:icon="@drawable/ic_calender"
+            android:title="View Calender" />
+    </group>
+
+</menu>
